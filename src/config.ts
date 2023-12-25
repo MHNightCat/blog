@@ -1,11 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "https://nightcat.xyz", // replace this with your deployed domain
   author: "Night Cat",
   desc: "一個正在上普通高中的閒學生",
   title: "Night Cat's Blog",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "avatar.png",
   lightAndDarkMode: true,
   postPerPage: 7,
 };
@@ -25,7 +25,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/MHNightcat",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -33,19 +33,19 @@ export const SOCIALS: SocialObjects = [
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Instagram`,
-    active: true,
+    active: false,
   },
   {
     name: "LinkedIn",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on LinkedIn`,
-    active: true,
+    active: false,
   },
   {
     name: "Mail",
@@ -69,7 +69,7 @@ export const SOCIALS: SocialObjects = [
     name: "YouTube",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on YouTube`,
-    active: false,
+    active: true,
   },
   {
     name: "WhatsApp",
@@ -103,9 +103,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Discord",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://discord.gg/7g7VE2Sqna",
     linkTitle: `${SITE.title} on Discord`,
-    active: false,
+    active: true,
   },
   {
     name: "GitLab",
