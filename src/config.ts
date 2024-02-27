@@ -103,7 +103,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Discord",
-    href: "https://discord.gg/7g7VE2Sqna",
+    href: "https://discord.com/users/579544867626024960",
     linkTitle: `${SITE.title} on Discord`,
     active: true,
   },
