@@ -67,7 +67,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "YouTube",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.youtube.com/channel/UCAkLm9DWgoIXWK1sDqpHVWw",
     linkTitle: `${SITE.title} on YouTube`,
     active: true,
   },
