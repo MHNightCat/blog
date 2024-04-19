@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1 class="mr-2">簡介</h1>
+      <h1 class="mr-2">About me</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -41,9 +41,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        我是一位來自台灣的高中學生，閒閒沒事寫寫code，主要語言為typescript、python跟一點c++，目
-        前正在學習golang。較為有名的專案應該是MHCAT，一隻Discord Bot，目前沒在維護了，但還是有在運作，
-        有興趣可以去我的github找!所有code都是開源的
+        I am a student from Taiwan, currently 16 years old. I am interested in all things related to technology and am working hard to learn C++ (although I don't particularly like it, it's just for the darn Asian exams). The most famous (actually not famous at all, haha) thing I've done is Superfile, a simple and easy-to-use terminal file manager. My main expertise lies in JavaScript, TypeScript, and Go!
       </p>
       {
         // only display if at least one social link is enabled
@@ -61,7 +59,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>精選文章</h2>
+            <h2>Featured</h2>
             <ul>
               {featuredPosts.map(({ data }) => (
                 <Card
@@ -78,7 +76,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     }
 
     <section id="recent-posts">
-      <h2>近期文章</h2>
+      <h2>Recent Posts</h2>
       <ul>
         {
           sortedPosts
@@ -97,7 +95,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </ul>
       <div class="all-posts-btn-wrapper">
         <LinkButton href="/posts">
-          所 有 文 章
+          All Post
           <svg xmlns="http://www.w3.org/2000/svg"
             ><path
               d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
